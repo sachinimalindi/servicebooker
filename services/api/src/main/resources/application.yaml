@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: servicebooker-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/servicebooker
+    username: servicebooker
+    password: servicebooker
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
+
